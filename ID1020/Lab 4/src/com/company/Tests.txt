@@ -1,0 +1,772 @@
+DEL ETT:
+
+AL 0
+FL 1
+AL 0
+GA 2
+AL 0
+MS 3
+AL 0
+TN 4
+AR 5
+LA 6
+AR 5
+MO 7
+AR 5
+MS 3
+AR 5
+OK 8
+AR 5
+TN 4
+AR 5
+TX 9
+AZ 10
+CA 11
+AZ 10
+NM 12
+AZ 10
+NV 13
+AZ 10
+UT 14
+CA 11
+NV 13
+CA 11
+OR 15
+CO 16
+KS 17
+CO 16
+NE 18
+CO 16
+NM 12
+CO 16
+OK 8
+CO 16
+UT 14
+CO 16
+WY 19
+CT 20
+MA 21
+CT 20
+NY 22
+CT 20
+RI 23
+DC 24
+MD 25
+DC 24
+VA 26
+DE 27
+MD 25
+DE 27
+NJ 28
+DE 27
+PA 29
+FL 1
+GA 2
+GA 2
+NC 30
+GA 2
+SC 31
+GA 2
+TN 4
+IA 32
+IL 33
+IA 32
+MN 34
+IA 32
+MO 7
+IA 32
+NE 18
+IA 32
+SD 35
+IA 32
+WI 36
+ID 37
+MT 38
+ID 37
+NV 13
+ID 37
+OR 15
+ID 37
+UT 14
+ID 37
+WA 39
+ID 37
+WY 19
+IL 33
+IN 40
+IL 33
+KY 41
+IL 33
+MO 7
+IL 33
+WI 36
+IN 40
+KY 41
+IN 40
+MI 42
+IN 40
+OH 43
+KS 17
+MO 7
+KS 17
+NE 18
+KS 17
+OK 8
+KY 41
+MO 7
+KY 41
+OH 43
+KY 41
+TN 4
+KY 41
+VA 26
+KY 41
+WV 44
+LA 6
+MS 3
+LA 6
+TX 9
+MA 21
+NH 45
+MA 21
+NY 22
+MA 21
+RI 23
+MA 21
+VT 46
+MD 25
+PA 29
+MD 25
+VA 26
+MD 25
+WV 44
+ME 47
+NH 45
+MI 42
+OH 43
+MI 42
+WI 36
+MN 34
+ND 48
+MN 34
+SD 35
+MN 34
+WI 36
+MO 7
+NE 18
+MO 7
+OK 8
+MO 7
+TN 4
+MS 3
+TN 4
+MT 38
+ND 48
+MT 38
+SD 35
+MT 38
+WY 19
+NC 30
+SC 31
+NC 30
+TN 4
+NC 30
+VA 26
+ND 48
+SD 35
+NE 18
+SD 35
+NE 18
+WY 19
+NH 45
+VT 46
+NJ 28
+NY 22
+NJ 28
+PA 29
+NM 12
+OK 8
+NM 12
+TX 9
+NV 13
+OR 15
+NV 13
+UT 14
+NY 22
+PA 29
+NY 22
+VT 46
+OH 43
+PA 29
+OH 43
+WV 44
+OK 8
+TX 9
+OR 15
+WA 39
+PA 29
+WV 44
+SD 35
+WY 19
+TN 4
+VA 26
+UT 14
+WY 19
+VA 26
+WV 44
+added a path between AL(index 0) and FL(index 1)
+added a path between AL(index 0) and GA(index 2)
+added a path between AL(index 0) and MS(index 3)
+added a path between AL(index 0) and TN(index 4)
+added a path between AR(index 5) and LA(index 6)
+added a path between AR(index 5) and MO(index 7)
+added a path between AR(index 5) and MS(index 3)
+added a path between AR(index 5) and OK(index 8)
+added a path between AR(index 5) and TN(index 4)
+added a path between AR(index 5) and TX(index 9)
+added a path between AZ(index 10) and CA(index 11)
+added a path between AZ(index 10) and NM(index 12)
+added a path between AZ(index 10) and NV(index 13)
+added a path between AZ(index 10) and UT(index 14)
+added a path between CA(index 11) and NV(index 13)
+added a path between CA(index 11) and OR(index 15)
+added a path between CO(index 16) and KS(index 17)
+added a path between CO(index 16) and NE(index 18)
+added a path between CO(index 16) and NM(index 12)
+added a path between CO(index 16) and OK(index 8)
+added a path between CO(index 16) and UT(index 14)
+added a path between CO(index 16) and WY(index 19)
+added a path between CT(index 20) and MA(index 21)
+added a path between CT(index 20) and NY(index 22)
+added a path between CT(index 20) and RI(index 23)
+added a path between DC(index 24) and MD(index 25)
+added a path between DC(index 24) and VA(index 26)
+added a path between DE(index 27) and MD(index 25)
+added a path between DE(index 27) and NJ(index 28)
+added a path between DE(index 27) and PA(index 29)
+added a path between FL(index 1) and GA(index 2)
+added a path between GA(index 2) and NC(index 30)
+added a path between GA(index 2) and SC(index 31)
+added a path between GA(index 2) and TN(index 4)
+added a path between IA(index 32) and IL(index 33)
+added a path between IA(index 32) and MN(index 34)
+added a path between IA(index 32) and MO(index 7)
+added a path between IA(index 32) and NE(index 18)
+added a path between IA(index 32) and SD(index 35)
+added a path between IA(index 32) and WI(index 36)
+added a path between ID(index 37) and MT(index 38)
+added a path between ID(index 37) and NV(index 13)
+added a path between ID(index 37) and OR(index 15)
+added a path between ID(index 37) and UT(index 14)
+added a path between ID(index 37) and WA(index 39)
+added a path between ID(index 37) and WY(index 19)
+added a path between IL(index 33) and IN(index 40)
+added a path between IL(index 33) and KY(index 41)
+added a path between IL(index 33) and MO(index 7)
+added a path between IL(index 33) and WI(index 36)
+added a path between IN(index 40) and KY(index 41)
+added a path between IN(index 40) and MI(index 42)
+added a path between IN(index 40) and OH(index 43)
+added a path between KS(index 17) and MO(index 7)
+added a path between KS(index 17) and NE(index 18)
+added a path between KS(index 17) and OK(index 8)
+added a path between KY(index 41) and MO(index 7)
+added a path between KY(index 41) and OH(index 43)
+added a path between KY(index 41) and TN(index 4)
+added a path between KY(index 41) and VA(index 26)
+added a path between KY(index 41) and WV(index 44)
+added a path between LA(index 6) and MS(index 3)
+added a path between LA(index 6) and TX(index 9)
+added a path between MA(index 21) and NH(index 45)
+added a path between MA(index 21) and NY(index 22)
+added a path between MA(index 21) and RI(index 23)
+added a path between MA(index 21) and VT(index 46)
+added a path between MD(index 25) and PA(index 29)
+added a path between MD(index 25) and VA(index 26)
+added a path between MD(index 25) and WV(index 44)
+added a path between ME(index 47) and NH(index 45)
+added a path between MI(index 42) and OH(index 43)
+added a path between MI(index 42) and WI(index 36)
+added a path between MN(index 34) and ND(index 48)
+added a path between MN(index 34) and SD(index 35)
+added a path between MN(index 34) and WI(index 36)
+added a path between MO(index 7) and NE(index 18)
+added a path between MO(index 7) and OK(index 8)
+added a path between MO(index 7) and TN(index 4)
+added a path between MS(index 3) and TN(index 4)
+added a path between MT(index 38) and ND(index 48)
+added a path between MT(index 38) and SD(index 35)
+added a path between MT(index 38) and WY(index 19)
+added a path between NC(index 30) and SC(index 31)
+added a path between NC(index 30) and TN(index 4)
+added a path between NC(index 30) and VA(index 26)
+added a path between ND(index 48) and SD(index 35)
+added a path between NE(index 18) and SD(index 35)
+added a path between NE(index 18) and WY(index 19)
+added a path between NH(index 45) and VT(index 46)
+added a path between NJ(index 28) and NY(index 22)
+added a path between NJ(index 28) and PA(index 29)
+added a path between NM(index 12) and OK(index 8)
+added a path between NM(index 12) and TX(index 9)
+added a path between NV(index 13) and OR(index 15)
+added a path between NV(index 13) and UT(index 14)
+added a path between NY(index 22) and PA(index 29)
+added a path between NY(index 22) and VT(index 46)
+added a path between OH(index 43) and PA(index 29)
+added a path between OH(index 43) and WV(index 44)
+added a path between OK(index 8) and TX(index 9)
+added a path between OR(index 15) and WA(index 39)
+added a path between PA(index 29) and WV(index 44)
+added a path between SD(index 35) and WY(index 19)
+added a path between TN(index 4) and VA(index 26)
+added a path between UT(index 14) and WY(index 19)
+added a path between VA(index 26) and WV(index 44)
+Origin:
+AL
+Destination:
+FL
+start: 0end: 1
+test1
+Name: AL Index: 0
+Name: FL Index: 1
+Name: GA Index: 2
+Name: MS Index: 3
+Name: TN Index: 4
+Name: AR Index: 5
+Name: LA Index: 6
+Name: MO Index: 7
+Name: OK Index: 8
+Name: TX Index: 9
+Name: AZ Index: 10
+Name: CA Index: 11
+Name: NM Index: 12
+Name: NV Index: 13
+Name: UT Index: 14
+Name: OR Index: 15
+Name: CO Index: 16
+Name: KS Index: 17
+Name: NE Index: 18
+Name: WY Index: 19
+Name: CT Index: 20
+Name: MA Index: 21
+Name: NY Index: 22
+Name: RI Index: 23
+Name: DC Index: 24
+Name: MD Index: 25
+Name: VA Index: 26
+Name: DE Index: 27
+Name: NJ Index: 28
+Name: PA Index: 29
+Name: NC Index: 30
+Name: SC Index: 31
+Name: IA Index: 32
+Name: IL Index: 33
+Name: MN Index: 34
+Name: SD Index: 35
+Name: WI Index: 36
+Name: ID Index: 37
+Name: MT Index: 38
+Name: WA Index: 39
+Name: IN Index: 40
+Name: KY Index: 41
+Name: MI Index: 42
+Name: OH Index: 43
+Name: WV Index: 44
+Name: NH Index: 45
+Name: VT Index: 46
+Name: ME Index: 47
+Name: ND Index: 48
+
+AL to FL: AL->TN(4)->VA(26)->NC(30)->SC(31)->GA(2)->FL(1)
+
+
+
+DEL TVÅ:
+
+To find the a path from X to Y please insert
+X:
+AL
+Y:
+FL
+from AL to FL: AL-FL
+
+DEL TRE:
+
+AL 0
+FL 1
+AL 0
+GA 2
+AL 0
+MS 3
+AL 0
+TN 4
+AR 5
+LA 6
+AR 5
+MO 7
+AR 5
+MS 3
+AR 5
+OK 8
+AR 5
+TN 4
+AR 5
+TX 9
+AZ 10
+CA 11
+AZ 10
+NM 12
+AZ 10
+NV 13
+AZ 10
+UT 14
+CA 11
+NV 13
+CA 11
+OR 15
+CO 16
+KS 17
+CO 16
+NE 18
+CO 16
+NM 12
+CO 16
+OK 8
+CO 16
+UT 14
+CO 16
+WY 19
+CT 20
+MA 21
+CT 20
+NY 22
+CT 20
+RI 23
+DC 24
+MD 25
+DC 24
+VA 26
+DE 27
+MD 25
+DE 27
+NJ 28
+DE 27
+PA 29
+FL 1
+GA 2
+GA 2
+NC 30
+GA 2
+SC 31
+GA 2
+TN 4
+IA 32
+IL 33
+IA 32
+MN 34
+IA 32
+MO 7
+IA 32
+NE 18
+IA 32
+SD 35
+IA 32
+WI 36
+ID 37
+MT 38
+ID 37
+NV 13
+ID 37
+OR 15
+ID 37
+UT 14
+ID 37
+WA 39
+ID 37
+WY 19
+IL 33
+IN 40
+IL 33
+KY 41
+IL 33
+MO 7
+IL 33
+WI 36
+IN 40
+KY 41
+IN 40
+MI 42
+IN 40
+OH 43
+KS 17
+MO 7
+KS 17
+NE 18
+KS 17
+OK 8
+KY 41
+MO 7
+KY 41
+OH 43
+KY 41
+TN 4
+KY 41
+VA 26
+KY 41
+WV 44
+LA 6
+MS 3
+LA 6
+TX 9
+MA 21
+NH 45
+MA 21
+NY 22
+MA 21
+RI 23
+MA 21
+VT 46
+MD 25
+PA 29
+MD 25
+VA 26
+MD 25
+WV 44
+ME 47
+NH 45
+MI 42
+OH 43
+MI 42
+WI 36
+MN 34
+ND 48
+MN 34
+SD 35
+MN 34
+WI 36
+MO 7
+NE 18
+MO 7
+OK 8
+MO 7
+TN 4
+MS 3
+TN 4
+MT 38
+ND 48
+MT 38
+SD 35
+MT 38
+WY 19
+NC 30
+SC 31
+NC 30
+TN 4
+NC 30
+VA 26
+ND 48
+SD 35
+NE 18
+SD 35
+NE 18
+WY 19
+NH 45
+VT 46
+NJ 28
+NY 22
+NJ 28
+PA 29
+NM 12
+OK 8
+NM 12
+TX 9
+NV 13
+OR 15
+NV 13
+UT 14
+NY 22
+PA 29
+NY 22
+VT 46
+OH 43
+PA 29
+OH 43
+WV 44
+OK 8
+TX 9
+OR 15
+WA 39
+PA 29
+WV 44
+SD 35
+WY 19
+TN 4
+VA 26
+UT 14
+WY 19
+VA 26
+WV 44
+added a path between AL(index 0) and FL(index 1)
+added a path between AL(index 0) and GA(index 2)
+added a path between AL(index 0) and MS(index 3)
+added a path between AL(index 0) and TN(index 4)
+added a path between AR(index 5) and LA(index 6)
+added a path between AR(index 5) and MO(index 7)
+added a path between AR(index 5) and MS(index 3)
+added a path between AR(index 5) and OK(index 8)
+added a path between AR(index 5) and TN(index 4)
+added a path between AR(index 5) and TX(index 9)
+added a path between AZ(index 10) and CA(index 11)
+added a path between AZ(index 10) and NM(index 12)
+added a path between AZ(index 10) and NV(index 13)
+added a path between AZ(index 10) and UT(index 14)
+added a path between CA(index 11) and NV(index 13)
+added a path between CA(index 11) and OR(index 15)
+added a path between CO(index 16) and KS(index 17)
+added a path between CO(index 16) and NE(index 18)
+added a path between CO(index 16) and NM(index 12)
+added a path between CO(index 16) and OK(index 8)
+added a path between CO(index 16) and UT(index 14)
+added a path between CO(index 16) and WY(index 19)
+added a path between CT(index 20) and MA(index 21)
+added a path between CT(index 20) and NY(index 22)
+added a path between CT(index 20) and RI(index 23)
+added a path between DC(index 24) and MD(index 25)
+added a path between DC(index 24) and VA(index 26)
+added a path between DE(index 27) and MD(index 25)
+added a path between DE(index 27) and NJ(index 28)
+added a path between DE(index 27) and PA(index 29)
+added a path between FL(index 1) and GA(index 2)
+added a path between GA(index 2) and NC(index 30)
+added a path between GA(index 2) and SC(index 31)
+added a path between GA(index 2) and TN(index 4)
+added a path between IA(index 32) and IL(index 33)
+added a path between IA(index 32) and MN(index 34)
+added a path between IA(index 32) and MO(index 7)
+added a path between IA(index 32) and NE(index 18)
+added a path between IA(index 32) and SD(index 35)
+added a path between IA(index 32) and WI(index 36)
+added a path between ID(index 37) and MT(index 38)
+added a path between ID(index 37) and NV(index 13)
+added a path between ID(index 37) and OR(index 15)
+added a path between ID(index 37) and UT(index 14)
+added a path between ID(index 37) and WA(index 39)
+added a path between ID(index 37) and WY(index 19)
+added a path between IL(index 33) and IN(index 40)
+added a path between IL(index 33) and KY(index 41)
+added a path between IL(index 33) and MO(index 7)
+added a path between IL(index 33) and WI(index 36)
+added a path between IN(index 40) and KY(index 41)
+added a path between IN(index 40) and MI(index 42)
+added a path between IN(index 40) and OH(index 43)
+added a path between KS(index 17) and MO(index 7)
+added a path between KS(index 17) and NE(index 18)
+added a path between KS(index 17) and OK(index 8)
+added a path between KY(index 41) and MO(index 7)
+added a path between KY(index 41) and OH(index 43)
+added a path between KY(index 41) and TN(index 4)
+added a path between KY(index 41) and VA(index 26)
+added a path between KY(index 41) and WV(index 44)
+added a path between LA(index 6) and MS(index 3)
+added a path between LA(index 6) and TX(index 9)
+added a path between MA(index 21) and NH(index 45)
+added a path between MA(index 21) and NY(index 22)
+added a path between MA(index 21) and RI(index 23)
+added a path between MA(index 21) and VT(index 46)
+added a path between MD(index 25) and PA(index 29)
+added a path between MD(index 25) and VA(index 26)
+added a path between MD(index 25) and WV(index 44)
+added a path between ME(index 47) and NH(index 45)
+added a path between MI(index 42) and OH(index 43)
+added a path between MI(index 42) and WI(index 36)
+added a path between MN(index 34) and ND(index 48)
+added a path between MN(index 34) and SD(index 35)
+added a path between MN(index 34) and WI(index 36)
+added a path between MO(index 7) and NE(index 18)
+added a path between MO(index 7) and OK(index 8)
+added a path between MO(index 7) and TN(index 4)
+added a path between MS(index 3) and TN(index 4)
+added a path between MT(index 38) and ND(index 48)
+added a path between MT(index 38) and SD(index 35)
+added a path between MT(index 38) and WY(index 19)
+added a path between NC(index 30) and SC(index 31)
+added a path between NC(index 30) and TN(index 4)
+added a path between NC(index 30) and VA(index 26)
+added a path between ND(index 48) and SD(index 35)
+added a path between NE(index 18) and SD(index 35)
+added a path between NE(index 18) and WY(index 19)
+added a path between NH(index 45) and VT(index 46)
+added a path between NJ(index 28) and NY(index 22)
+added a path between NJ(index 28) and PA(index 29)
+added a path between NM(index 12) and OK(index 8)
+added a path between NM(index 12) and TX(index 9)
+added a path between NV(index 13) and OR(index 15)
+added a path between NV(index 13) and UT(index 14)
+added a path between NY(index 22) and PA(index 29)
+added a path between NY(index 22) and VT(index 46)
+added a path between OH(index 43) and PA(index 29)
+added a path between OH(index 43) and WV(index 44)
+added a path between OK(index 8) and TX(index 9)
+added a path between OR(index 15) and WA(index 39)
+added a path between PA(index 29) and WV(index 44)
+added a path between SD(index 35) and WY(index 19)
+added a path between TN(index 4) and VA(index 26)
+added a path between UT(index 14) and WY(index 19)
+added a path between VA(index 26) and WV(index 44)
+Origin:
+AL
+Destination:
+FL
+start: 0end: 1
+test1
+Name: AL Index: 0
+Name: FL Index: 1
+Name: GA Index: 2
+Name: MS Index: 3
+Name: TN Index: 4
+Name: AR Index: 5
+Name: LA Index: 6
+Name: MO Index: 7
+Name: OK Index: 8
+Name: TX Index: 9
+Name: AZ Index: 10
+Name: CA Index: 11
+Name: NM Index: 12
+Name: NV Index: 13
+Name: UT Index: 14
+Name: OR Index: 15
+Name: CO Index: 16
+Name: KS Index: 17
+Name: NE Index: 18
+Name: WY Index: 19
+Name: CT Index: 20
+Name: MA Index: 21
+Name: NY Index: 22
+Name: RI Index: 23
+Name: DC Index: 24
+Name: MD Index: 25
+Name: VA Index: 26
+Name: DE Index: 27
+Name: NJ Index: 28
+Name: PA Index: 29
+Name: NC Index: 30
+Name: SC Index: 31
+Name: IA Index: 32
+Name: IL Index: 33
+Name: MN Index: 34
+Name: SD Index: 35
+Name: WI Index: 36
+Name: ID Index: 37
+Name: MT Index: 38
+Name: WA Index: 39
+Name: IN Index: 40
+Name: KY Index: 41
+Name: MI Index: 42
+Name: OH Index: 43
+Name: WV Index: 44
+Name: NH Index: 45
+Name: VT Index: 46
+Name: ME Index: 47
+Name: ND Index: 48
+
+AL to FL: AL->FL(1)

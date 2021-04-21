@@ -1,0 +1,9 @@
+assignment 1:
+		båda ändras samtidigt pga if satsen som kontrollerar BTN ligger innan utskrivten så har båda ändrats vid det att det skrivs ut på skärmen.
+		
+		TRISE är adressen som innehåller I/O. TRISECLR maskar alla bits som är på samma position i TRISE som har 1 i TRISECLR. TRISESET initializes a value in TRISE
+		
+		$v0 eller  $v1
+		
+		Appendix A: chipKIT Basic I/O Shield Pinout Table --->  chipKIT Uno32 Reference Manual R står för register nästa bokstav är porten och sen är det vilken byte som 
+		kontrollerar den i registret.

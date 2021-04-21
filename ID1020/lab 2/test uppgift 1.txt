@@ -1,0 +1,21 @@
+How many numbers do you want to sort?
+6
+Please enter the numbers you want sorted
+1
+2
+4
+3
+5
+0
+the new array looks like:
+1 2 3 4 5 0 
+the new array looks like:
+1 2 3 4 0 5 
+the new array looks like:
+1 2 3 0 4 5 
+the new array looks like:
+1 2 0 3 4 5 
+the new array looks like:
+1 0 2 3 4 5 
+the new array looks like:
+0 1 2 3 4 5 

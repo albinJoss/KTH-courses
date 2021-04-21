@@ -1,0 +1,30 @@
+how many numbers?
+6
+write your numbers:
+1
+2
+4
+3
+5
+0
+invertions: [0,1] [5, 0], [1,2] [5, 0], [2,4] [3, 3], [2,4] [5, 0], [3,3] [5, 0], [4,5] [5, 0]
+number of invertions:6
+
+new array:
+1 2 3 4 5 0 
+new array:
+1 2 3 4 0 5 
+new array:
+1 2 3 0 4 5 
+new array:
+1 2 0 3 4 5 
+new array:
+1 0 2 3 4 5 
+new array:
+0 1 2 3 4 5 
+final array:
+0 1 2 3 4 5 
+number of swaps:6
+
+choose something else
+how many numbers?

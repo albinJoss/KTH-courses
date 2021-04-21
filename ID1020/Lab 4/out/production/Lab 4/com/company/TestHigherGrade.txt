@@ -1,0 +1,13 @@
+733846
+Start:
+1
+End:
+2
+Through:
+12
+[1]
+[12]
+[1]
+[2]
+
+The total weight in the path is: 6218.0

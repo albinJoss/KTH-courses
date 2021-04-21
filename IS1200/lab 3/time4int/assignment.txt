@@ -1,0 +1,21 @@
+assignment 1:
+		båda ändras samtidigt pga if satsen som kontrollerar BTN ligger innan utskrivten så har båda ändrats vid det att det skrivs ut på skärmen.
+		
+		TRISE är adressen som innehåller I/O. TRISECLR maskar alla bits som är på samma position i TRISE som har 1 i TRISECLR. TRISESET initializes a value in TRISE
+		
+		$v0 eller  $v1
+		
+		Appendix A: chipKIT Basic I/O Shield Pinout Table --->  chipKIT Uno32 Reference Manual R står för register nästa bokstav är porten och sen är det vilken byte som 
+		kontrollerar den i registret.
+		
+Assignment 2:
+
+		It resets all event flags.
+		
+		It would set timeout count to 1 and then never enter that if statement again.
+		
+		You must write to T2CONSET to define the prescaling and then you have to write to PR2 to define how many clock cycles a period would be defined as. The functoin of T2CONSET is to give a value to T2CON and T2CON gives a lot of different options as to the behavior of the timer. 
+		The function PR2 defines how many clock cycles the processor should go through for it to count as a period.
+		
+		If BTN3 is pressed quickly it will not be recorded as a press and nothing wil happen. It doesn't update as it needs to go through a cycle for it to register and update. This could be changed by either updating the polling rate to a higher value or instead make it an 
+		interupt flag.
