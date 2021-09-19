@@ -1,0 +1,42 @@
+Assignment 1:
+		A two complement number can represent both negative and positive numbers where the negative number is the inverse of it's positive counterparts bits which is then added with one. The adder is used both for subtraction and addition because if the carry in bit is 1, which it will be if the 
+		ALU is supposed to perform a subtraction, the adder would then add A + the inverse of B + 1 = A + (-B) = A - B.
+		
+		The zero output port is implemented by using a splitter after the MUX which chooses the operation that is performed. This splits the 32 bits. THey are then routed into OR-gates which in turn is then routed into an other OR-gate which is then routed into a inverter which outputs the value into
+		a pin named zero. This pin will output one if the value is 0 and 0 if the value is anything else.
+		
+		The purpose of an ALU is to perform all the logical and all the arthimetic that a microprocessor (or any other circuit) will have to perform. This is combined into a signle circuit to make it more efficient and to be easier to keep track of.
+		
+
+Assignment 2:
+		The reading is done combinationally, whenever the adress changes the data in the read port will change as well (after some propagation time), as such the clock has no incolvement in the reading. However the writing is done on the rising edge of the clock. if WE is true. This is done so that reading
+		can be done whenever a new instruction is available (which is when PC has sent a new adress to the instruction memory and that instruction has been fetched and PC is clocked and as such it will take one cycle before that happens), while writing can only be done when we are sure that the value
+		that is being written is correct as such we delay the writing till when the clock is rising. The clock will be rising during the next cycle and as such we're guaranteed to get the correct value.
+
+
+		When A3 has the value 0x000 then the decoder will send a high signal to the register. If WE3 is also enabled at the same time it will result in the enable signal being set to high. If the enable signal is set to high the 
+		clock triggers will matter, otherwise it won't affect the register. When the register is enabled the read signal is not mapped to WD3 as the other registers are but it's instead mapped to the constant 0x0 and as such
+		It isn't possible to write to. You can however read the output (which will always be 0x0) as the output is routed to port 0 of the mux that is connected to RD1, and branching off of it goes into the port 0 in the mux that is connected to RD2.
+
+		This register file can store 8 x 32 bits. It can store that many bits as we have 8 elements (registers) which each contain 32 bits of information. A 32-bit MIPS processor would contain 32 different register (need 5 bits of data to know which register) and as such it would contain
+		32 x 32 bits.
+
+
+Assignment 3:
+
+		Using a comparotor which compares the first 6 bits of the instruction with the value 0x4, I use the value 0x4 as that is the OPcode which is used for beq. If that is true then the branch pin will become true and the mux will choose the constant in port 1.
+		The previous implementation of the add and addi instruction always uses the constant 0x2 for the value of ALUcontrol as that is the add instructions. Unless the comparator returns true the value of ALUcontrol will be 0x2 (which is routed to port 0).
+
+		RegDST will only be true if the instruction is of the R-type and as such the regDST pin is only connected to the comparator which will be true if the OPcode is 0x0, if it isn't true then the pin will always be zero. The ALUsrc is routed to only the addi instruction because it will only be true in 
+		the case of it being an addi instruction from the instructions that this controlunit is made to handle. If we were to implement all instructions it would not work by doing this but as not all instructions are implemented it will work by routing it to the addi instruction.
+
+Assignment 4:
+
+		if regdst = 0 then one bit selector will first split the 32 bits into two groups of 16 bits where the second group (group 1) is selected. A second bit 
+		selector will then split those bits into 6 groups each containing 3 bits (except one which will only contain one and then 2 0's) and then select group
+		0 of those which is bits 16:20. if regdst=1 however then it will first split it into three groups of 11 bits each and choose group 1 then it will
+		use an other bit selector to split those 11 bits into 3 bits and choose group 0 of those. which is bits 11:15.
+
+		the beq instruction is implemented by first comparing if the two different registers are equal using the ALU. If they are then the ALU output will be 0
+		and then the zero-flag will be true. if it is the and gate connected to branch will be true and the myx before pc will choose port one. Then it will
+		choose the branch to adress which was computed by the shifter and adder.
